@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  doc:
+    container_name: docs-aidraw
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # docs 폴더를 컨테이너에 마운트
+    volumes:
+      - ./docs:/docs
+    # 3000 포트를 호스트의 3000 포트와 연결
+    ports:
+      - 3000:3000
+    # docsify 커맨드를 실행
+    command: docsify serve . -p 3000

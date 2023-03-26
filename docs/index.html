@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI DRAW Guide</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <link rel="icon" type="image/png" href="./images/document.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css"
+    />
+    <style>
+      :root {
+        --docsifytabs-border-color: #ededed;
+        --docsifytabs-tab-highlight-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div data-app id="main"></div>
+    <script>
+      window.$docsify = {
+        coverpage: true,
+        loadNavbar: true,
+        loadSidebar: true,
+        auto2top: true,
+        notFoundPage: true,
+        formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}",
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        }, // can loading multiple sidebars
+        themeColor: "#CB59FF",
+        // logo: "./images/els.png",
+        name: "AI Draw",
+        nameLink: "/#?id=시작하기",
+
+        copyCode: {
+          buttonText: "클립보드로 복사하기",
+          errorText: "오류",
+          successText: "복사되엇습니다",
+        },
+
+        tabs: {
+          persist: true, // default
+          sync: true, // default
+          theme: "classic", // default
+          tabComments: true, // default
+          tabHeadings: true, // default
+        },
+
+        "flexible-alerts": {
+          style: "callout", // callout, flat
+          note: {
+            label: "노트",
+          },
+          tip: {
+            label: "팁",
+          },
+          warning: {
+            label: "경고",
+          },
+          attention: {
+            label: "주의",
+          },
+        },
+        toc: {
+          scope: ".markdown-section",
+          headings: "h1, h2, h3, h4, h5, h6",
+          title: "Table of Contents",
+        },
+
+        footer: {
+          copy: `<span>AI Draw Guide &copy; 2023-</span>`,
+          auth: "by wonsama",
+          // pre: "<hr/>",
+          style: "text-align: right;",
+          // class: "className",
+        },
+      };
+    </script>
+    <!-- index.html -->
+
+    <!-- 플러그인 - 마크다운 언어의 경우 복사하기가 가능하도록 처리-->
+    <script src="https://unpkg.com/docsify-copy-code@2"></script>
+
+    <!-- 플러그인 - 이미지 중앙보기 기능 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+    <!-- 플러그인 - 탭 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+    <!-- 플러그인 - 경고 이쁘게 -->
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+
+    <!-- 플러그인 - TOC -->
+    <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+
+    <!-- 플러그인 - 바닥글 -->
+    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  </body>
+</html>
