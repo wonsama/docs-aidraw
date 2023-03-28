@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "d74651df4f96242c",
+    "type": "split",
+    "children": [
+      {
+        "id": "85a5a98c8cb3996a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d15589854e142817",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fbee6ff17425b0f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e117af98ce8918c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22e699f22f87d8ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cfc7bf81ec018848",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a32b1cb5a2d3a6a8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd23cea9d29103a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "a07602e870d18b6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3046ac2c1d03c218",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5aeac053b64eef41",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "628d162e1bc6be19",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e6db863b2d79ee02",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d15589854e142817",
+  "lastOpenFiles": [
+    "contents/prompt-wedding.md",
+    "contents/prompt-accessories.md",
+    "contents/prompt-costume.md",
+    "contents/images/logo.png",
+    "contents/images/document.png"
+  ]
+}

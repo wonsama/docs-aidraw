@@ -1,4 +1,4 @@
-# docs-aidraw
+# emsdoc
 
 ## 설치
 
@@ -14,10 +14,6 @@
 - `npm i docsify-cli -g` - 설치가 되지 않은 경우 설치
 - `docsify serve ./docs`
 
-도커 컴포우즈
-
-- `docker compose up --build -d`
-
 ## 참조 링크
 
 - [docsify - 홈](https://docsify.js.org/#/)
@@ -30,4 +26,3 @@
 - [docsify-plugin-flexible-alerts](https://github.com/fzankl/docsify-plugin-flexible-alerts)
 - [embed-files](https://docsify.js.org/#/embed-files)
 - [emoji](https://docsify.js.org/#/emoji)
-- [docsifyjs-cli](https://cli.docsifyjs.org/#/)

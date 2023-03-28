@@ -2,10 +2,16 @@
 
 # AI Draw Guide <small>1.0</small>
 
-Stable Diffusion 등을 활용하여 그림을 그려보자.
+Artificial Intelligence Draw Guide
 
-[시작하기](#시작하기)
+모두가 손쉽게 AI를 활용하여 그림을 그릴 수 있도록 도와주는 가이드입니다.
+
+[시작하기](/?id=시작하기)
+
+<!-- <h1>EMS Guide<small>1.0</small></h1> -->
 
 <!-- background image -->
+
+<!-- ![](./images/logo.png) -->
 
 <!-- background color -->

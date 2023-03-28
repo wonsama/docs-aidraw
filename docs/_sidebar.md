@@ -1,5 +1,10 @@
 - **설치**
-
-  - [webui](/contents/install.md "stable-diffusion-webui")
-
+  - [Stable Diffusion](/contents/INSTALL.md "Stable Diffusion 설치")
 - **프롬프트**
+  - 의상
+    - [기본의상](/contents/prompt-costume.md)
+    - [웨딩드레스](/contents/prompt-wedding.md)
+    - [악세사리](/contents/prompt-accessories.md)
+- **기타**
+  - [이슈해결](/contents/issue.md "기타 이슈해결")
+  - [참조링크](/contents/links.md "기타 참조링크")

@@ -13,4 +13,4 @@ services:
     ports:
       - 3000:3000
     # docsify 커맨드를 실행
-    command: docsify serve . -p 3000
+    command: docsify serve .
